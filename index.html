@@ -10,8 +10,8 @@
   <body class="bg-slate-700 text-white">
     <h1 class="mt-8 text-center text-3xl font-black">Rock-Paper-Scissors</h1>
 
-    <main class="container mx-auto mt-8 flex flex-col gap-y-2">
-      <p class="text-blue text-center text-2xl font-bold">
+    <main class="container mx-auto mt-8 flex flex-col gap-y-3">
+      <p class="text-blue text-center text-2xl font-bold" id="record">
         <span>0</span>&dash;<span>0</span>&dash;<span>0</span>
       </p>
 
@@ -44,6 +44,13 @@
             Scissors
           </button>
         </div>
+      </section>
+
+      <section class="mt-4">
+        <p class="hidden text-center">
+          CPU picked: <span id="cpu-pick"></span>
+        </p>
+        <p id="result" class="text-center"></p>
       </section>
     </main>
 
