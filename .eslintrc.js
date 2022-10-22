@@ -1,15 +1,14 @@
 module.exports = {
   env: {
     browser: true,
-    es2022: true,
+    es2021: true
   },
-  extends: ["xo", "prettier"],
+  extends: [
+    'standard'
+  ],
   parserOptions: {
-    sourceType: "module",
+    ecmaVersion: 'latest'
   },
   rules: {
-    "capitalized-comments": "off",
-    "new-cap": "off",
-    "no-unused-vars": "warn",
-  },
-};
+  }
+}
