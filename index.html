@@ -18,23 +18,28 @@
       <section class="flex flex-col items-center justify-center gap-y-8">
         <h2 class="text-center text-xl">Make Ur Pumpkin Choice!</h2>
 
+        <!-- 0 is rock, 1 is paper, 2 is scissors  -->
         <div class="flex gap-x-8">
-          <button class="bg-red-500 hover:bg-red-700" id="rock" type="button">
+          <button
+            class="bg-red-500 hover:bg-red-700"
+            type="button"
+            data-index="0"
+          >
             Rock
           </button>
 
           <button
             class="bg-green-600 hover:bg-green-800"
-            id="paper"
             type="button"
+            data-index="1"
           >
             Paper
           </button>
 
           <button
             class="bg-blue-500 hover:bg-blue-700"
-            id="scissors"
             type="button"
+            data-index="2"
           >
             Scissors
           </button>
