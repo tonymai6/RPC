@@ -1,6 +1,4 @@
 {
-  "better-comments.highlightPlainText": true,
-  "better-comments.multilineComments": true,
   "css.validate": false,
   "editor.codeActionsOnSave": {
     "addMissingImports": true,
